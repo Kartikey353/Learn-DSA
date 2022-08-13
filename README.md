@@ -71,7 +71,7 @@ I used templates you can read more about templates [here](https://cplusplus.com/
 5) Print level wise : It prints data level wise  
    ![Screenshot](generictrees.png) 
    
-   A: B,C\ 
+   A: B,C\
    B: D,E\
    C: F,G\
    D:\
