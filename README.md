@@ -5,6 +5,7 @@ This is series of learning Dsa help you to get knowledge with the help of codes.
 ## Clone/Download  the repo 
 
 Type following command on gitbash or terminal\
+Learn more about clone github  repository [CLONE](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).\
 
 ```bash 
  git clone https://github.com/Kartikey353/Learn-DSA.git 
