@@ -81,17 +81,28 @@ I used templates you can read more about templates [here](https://cplusplus.com/
 
 
 ## Programms 
-1) createTreeandPrint: This will create tree and print tree (in any order but all nodes). 
-2) take_input_recursive: This will take input recursively.
-3) take_input_level_wise: This will take input level wise as shown above using Queue data structure. 
-4) print_level_wise: This will print tree level wise as shown above. 
-5) Count_leaf_Nodes: count number of nodes with no child node in tree.
-6) Count_no_of_nodes : count total number of nodes in tree.  
+1) createTreeandPrint:   This will create tree and print tree (in any order but all nodes). 
+
+2) take_input_recursive:   This will take input recursively.
+
+3) take_input_level_wise:   This will take input level wise as shown above using Queue data structure. 
+
+4) print_level_wise:   This will print tree level wise as shown above. 
+
+5) Count_leaf_Nodes:   count number of nodes with no child node in tree.
+
+6) Count_no_of_nodes :   count total number of nodes in tree.  
+
 7) print_node_at_level_k: print all nodes of tree at depth k. 
+
 8) get_tree_height: Count the height of tree. 
+
 9) post_order: print tree in postorder. 
+
 10) preorder: print tree in pre order. 
+
 11) delete_tree_method1: delete tree using function. 
+
 12) delete_tree_method2: delete tree using destructor. 
 
 
