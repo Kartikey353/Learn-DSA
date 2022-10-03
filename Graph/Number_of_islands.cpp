@@ -1,4 +1,4 @@
-/*https://leetcode.com/problems/number-of-islands/submissions/*/
+/*https://leetcode.com/problems/number-of-islands/submissions/ */
 
 class Solution {
 public:
