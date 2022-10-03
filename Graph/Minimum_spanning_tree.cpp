@@ -1,4 +1,4 @@
-/*https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1*/
+/* https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1 */
 
 class Solution
 {
