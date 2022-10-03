@@ -5,6 +5,7 @@ public:
     int data;
     Node *Next;
 };
+
 class circular_List{
     Node *Head;
 public:
@@ -18,10 +19,12 @@ public:
 
     void delete_from_tail();
 };
+
 circular_List::circular_List()
 {
     Head = NULL;
 }
+
 void circular_List :: add_to_Head(int u_data){
     Node *newNode = new Node;
     newNode -> data = u_data;
@@ -39,6 +42,7 @@ void circular_List :: add_to_Head(int u_data){
         Head = newNode;
     }
 }
+
 void circular_List :: Print()
 {
     cout<<Head -> data<<" ";
@@ -49,6 +53,7 @@ void circular_List :: Print()
         Temp = Temp -> Next;
     }
 }
+
 void circular_List::add_to_tail(int u_data)
 {
     Node *newNode = new Node;
@@ -67,6 +72,7 @@ void circular_List::add_to_tail(int u_data)
         temp->Next = newNode;
     }
 }
+
 void circular_List :: delete_from_Head(){
     if(Head == NULL)
         cout<<"THE Head IS already EMPTY";
@@ -84,6 +90,7 @@ void circular_List :: delete_from_Head(){
         delete temp2;
     }
 }
+
 void circular_List :: delete_from_tail() {
     if(Head == NULL)
         cout<<"THE Head IS already EMPTY";
