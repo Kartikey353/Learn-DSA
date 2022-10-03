@@ -1,4 +1,4 @@
-/*https://leetcode.com/problems/shortest-bridge/.*/
+/*https://leetcode.com/problems/shortest-bridge/ .*/
 
 /*You are given an n x n binary matrix grid where 1 represents land and 0 represents water.
 
