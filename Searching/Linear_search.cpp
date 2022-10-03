@@ -11,7 +11,8 @@ int Linearsearch(int arr[], int n, int x)
 	return -1;
 }
 
-
+// time complexity-> O(n)
+//space complexity-> O(1)
 int main()
 {
   int size,ele;  //size is Size of array and ele is our target element.
