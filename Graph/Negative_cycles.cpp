@@ -1,4 +1,4 @@
-/* https://practice.geeksforgeeks.org/problems/negative-weight-cycle3504/1 */
+/* https://practice.geeksforgeeks.org/problems/negative-weight-cycle3504/1  */
 
 //Negative weight cycle//
 
