@@ -11,11 +11,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Class to implement node
 class XorListNode
 {
     public:
     char val;
-    XorListNode *npx;
+    XorListNode *npx; /* XOR of next and previous node */
     XorListNode()
     {
         val = ' ';
@@ -28,6 +29,7 @@ class XorListNode
     }
 };
 
+/* returns XORed value of the node addresses */
 XorListNode* XOR(XorListNode *x, XorListNode *y)
 {
     return (XorListNode*)((uintptr_t)(x) ^ (uintptr_t)(y));
@@ -39,7 +41,9 @@ void traverseForward(XorListNode *node)
     XorListNode* curr = node;
     while (curr != NULL)
     {
+        // print current node
         cout << " " << curr->val;
+
         XorListNode *temp = XOR(curr->npx, prev);
         prev = curr;
         curr = temp;
@@ -59,15 +63,29 @@ void traverseBackward(XorListNode *node)
     }
 }
 
-// Inserting a new node at the beginning of the XOR list
+/* Inserting a new node at the beginning of the XORed linked list 
+and makes the newly inserted node as head */
 void insert(XorListNode *&head, char data)
 {
+    // Allocate memory for new node 
     XorListNode *newNode = new XorListNode(data);
+
+    /* Since new node is being inserted at the 
+	beginning, npx of new node will always be 
+	XOR of current head and NULL */
     newNode->npx = head;
+
+    /* If linked list is not empty, then npx of 
+	current head node will be XOR of new node 
+	and node next to current head */
     if (head != NULL)
     {
+        // *(head_ref)->npx is XOR of NULL and next. 
+		// So if we do XOR of it with NULL, we get next 
         head->npx = XOR (head->npx, newNode);
     }
+
+    // Change head
     head = newNode;
 }
 
