@@ -18,4 +18,4 @@ Please make sure to update tests as appropriate.
  
  
 ## Adding More Helpfull Question: 
-You are welcome to add More question in this reprository 
+You are welcome to add More question in this repository 
